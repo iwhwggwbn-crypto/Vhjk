@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.bitpack.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockPosMixin",
+    "WorldMixin",
+    "ChunkSerializerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

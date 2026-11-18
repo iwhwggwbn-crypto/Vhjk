@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bitpack",
+  "version": "${version}",
+  "name": "BitPack 24/24/16",
+  "description": "BlockPos: X и Z по 24 бита (±8 388 608), Y 16 бит (до ±32 752 блоков). Нужен и на клиенте, и на сервере.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.bitpack.BitPack"]
+  },
+  "mixins": ["bitpack.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
